@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),X601_LTE)
+ifeq ($(TARGET_DEVICE),K6000Pro)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libhwm

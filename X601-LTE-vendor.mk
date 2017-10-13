@@ -25,6 +25,6 @@ PRODUCT_COPY_FILES := \
     packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 
 # Pick up overlay for features that depend on non-open-source files
-DEVICE_PACKAGE_OVERLAYS := vendor/Infinix/X601-LTE/overlay
+DEVICE_PACKAGE_OVERLAYS := vendor/Infinix/X601_LTE/overlay
 
-$(call inherit-product, vendor/Infinix/X601-LTE/X601-LTE-vendor-blobs.mk)
+$(call inherit-product, vendor/Infinix/X601_LTE/X601_LTE-vendor-blobs.mk)
